@@ -333,7 +333,7 @@
             /* backdrop-filter: blur(10px); */
             /* background-color: rgba(28,28,30,0.8); */
             border-radius: 50px;
-            margin: 0px 16px 20px 16px;
+            margin: 0px 16px 0px 16px;
             background: transparent;
         }
 
@@ -355,8 +355,8 @@
         }
 
         .message-input-area button {
-            width: 54px;
-            height: 54px;
+            width: 50px;
+            height: 50px;
             border-radius: 27px;
             background-color: #0a84ff;
             border: none;
@@ -688,7 +688,7 @@
                     <div id="typing-status" class="typing-indicator hidden"></div>
                     <div id="messages-container" class="messages-container"></div>
                     <div class="message-input-area">
-                        <input type="text" id="message-input" placeholder="Сообщение" maxlength="130">
+                        <input type="search" id="message-input" placeholder="Сообщение" maxlength="130" autocomplete="off">
                         <button id="send-message"><img src="righticonsnd.png" class="send-message-icon" alt="send"></button>
                     </div>
                 </div>
